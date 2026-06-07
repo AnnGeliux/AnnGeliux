@@ -38,3 +38,4 @@ Ingeniero en Sistemas Computacionales con enfoque técnico en **software enginee
 ---
 
 <sub>Profile README generado como parte de la hoja de ruta del portafolio · Junio 2026</sub>
+ 
