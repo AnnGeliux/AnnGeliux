@@ -11,6 +11,10 @@ concurrency:
   group: adding_username
   cancel-in-progress: false
 
+permissions:
+  contents: write
+  issues: write
+
 jobs:
   check_username:
     name: Check username
