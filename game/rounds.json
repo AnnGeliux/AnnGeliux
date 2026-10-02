@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "rounds": [
+    {
+      "id": 1,
+      "text": "Preferir programar de noche me parece que me permite estar más enfocado y sin distracciones. No hay reuniones ni llamadas, puedo dedicarle todo mi tiempo a resolver el problema que tengo bloqueado. Además, la calma de la noche me permite pensar de manera más lógica y racional.",
+      "is_ai": true,
+      "source": "llama3.1:8b",
+      "topic": "programar de noche"
+    },
+    {
+      "id": 2,
+      "text": "No sé, creo que me da una sensación de control sobre lo que estoy haciendo y que no tengo que depender de una interfaz muy visual como con los editores gráficos. Además, es muy rápido y light en mi laptop, y estoy acostumbrado a sus comandos.",
+      "is_ai": true,
+      "source": "llama3.1:8b",
+      "topic": "por qué sigo usando vim"
+    },
+    {
+      "id": 3,
+      "text": "Recuerdo que estaba un poco nerviosa al desplegar mi proyecto a producción por primera vez, pero todo salió bien al final. Me costó un poco entender el proceso, pero con la ayuda de mis colegas me fue más fácil que pensaba. Ahora no me cuesta tanto trabajo.",
+      "is_ai": true,
+      "source": "llama3.1:8b",
+      "topic": "primer deploy a producción"
+    },
+    {
+      "id": 4,
+      "text": "Sobrevivo a las juntas de los lunes preparándome el domingo por la noche: me traigo café, zumo de naranja y un par de bocaditos para mantenerme con energía, además organizo las notas y documentos que necesitaré para poder trabajar de manera efectiva y así evitar el estrés.",
+      "is_ai": true,
+      "source": "llama3.1:8b",
+      "topic": "juntas de lunes"
+    },
+    {
+      "id": 5,
+      "text": "Para mí, un buen café es aquel que tiene un aroma intenso y un sabor equilibrado entre el amargo y el dulce. Prefiero los cafés que no están demasiado tostados ni demasiado finos, lo que me permite apreciar la complejidad de sus notas. Una buena crema es también una ventaja, pero no el único criterio de elegibilidad.",
+      "is_ai": true,
+      "source": "llama3.1:8b",
+      "topic": "elegir un buen café"
+    },
+    {
+      "id": 6,
+      "text": "Me gusta trabajar con un escritorio despejado, solo necesito mi portátil, un teclado mecánico y una silla cómoda. A mi lado tengo una pequeña estantería con mis libros de referencia y algunos cuadernos de notas, y siempre tengo una taza de café cerca. La iluminación natural es lo mejor, así que me gusta trabajar cerca de la ventana.",
+      "is_ai": true,
+      "source": "llama3.1:8b",
+      "topic": "setup de escritorio"
+    },
+    {
+      "id": 7,
+      "text": "Recuerdo ese bug de un juego que me hizo un daño psicológico profundo, era de esos que te hacen perder la noción del tiempo y no te dejan jugar. Al finalizar una partida de supervivencia, una maldición de '¡vuelve a jugar!' se repitió infinitamente hasta que reinicié la consola, fue una verdadera catástrofe.",
+      "is_ai": true,
+      "source": "llama3.1:8b",
+      "topic": "un bug traumático"
+    },
+    {
+      "id": 8,
+      "text": "Me di cuenta de que el mejor consejo que me dieron como desarrollador fue 'no tengas miedo de hacerlo de nuevo'. En un momento, estaba atascado en un problema y estaba a punto de dar por imposible, pero alguien me dijo que simplemente reiniciara el proceso desde el principio. Funcionó como un sortilegio, me permitió ver cosas que no había visto antes.",
+      "is_ai": true,
+      "source": "llama3.1:8b",
+      "topic": "mejor consejo como dev"
+    },
+    {
+      "id": 9,
+      "text": "Hace unos meses decidí dejar de usar las redes sociales porque estaba cansada de sentirme mal conmigo mismo cuando no eras perfecto en la foto, pero también estaba harta de la comparación constante y la sensación de que te estabas perdiendo de la vida real. Fue un alivio ser libre de compartir solo lo que quería y no preocuparme por la opinión de los demás.",
+      "is_ai": true,
+      "source": "llama3.1:8b",
+      "topic": "dejar redes sociales"
+    },
+    {
+      "id": 10,
+      "text": "Me encantan los viernes de deploy, es la única vez de la semana que puedo disfrutar de la tranquilidad después de un día de estrés en el trabajo. Puedo relajarme en el parque, leer un libro o simplemente disfrutar de un buen café mientras escucho música. Es mi momento de escape antes de sumergirme en las prisas del sábado.",
+      "is_ai": true,
+      "source": "llama3.1:8b",
+      "topic": "viernes de deploy"
+    }
+  ]
+}
