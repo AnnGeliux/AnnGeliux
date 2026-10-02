@@ -101,7 +101,7 @@ Ingeniero en Sistemas Computacionales (CDMX 🇲🇽) trabajando en tres frentes
 *Los visitantes pueden grabar su username en el muro. Click abajo → GitHub abre un issue pre-llenado → un Action lo pinta. Sin servidor, sin base de datos — todo vive en este repo.*
 
 <div align="center">
-  <img src="./banner1790924181.svg" alt="El Muro — guestbook" />
+  <img src="./banner511641.svg" alt="El Muro — guestbook" />
 </div>
 
 **[🖊️ Deja tu firma en el muro](https://github.com/AnnGeliux/AnnGeliux/issues/new?title=Add+my+username+to+the+banner!&body=%23+%F0%9F%A7%B1+Vas+a+firmar+el+muro%0A%0A%3E+%5B!TIP%5D%0A%3E+**No+necesitas+escribir+nada.**+Tu+username+se+toma+autom%C3%A1ticamente+de+tu+cuenta.%0A%0A%23%23%23+Qu%C3%A9+hacer%0A1.+Aseg%C3%BArate+de+haber+iniciado+sesi%C3%B3n+en+GitHub.+%F0%9F%94%91%0A2.+Dale+click+al+bot%C3%B3n+verde+**%22Create%22**+%E2%AC%87%EF%B8%8F%0A3.+Listo.+Un+GitHub+Action+pintar%C3%A1+tu+username+en+el+muro+en+%7E30+seg.+%E2%9C%A8%0A%0A%23%23%23+Ojo%0A-+Solo+puedes+firmar+**una+vez**.%0A-+El+issue+se+cierra+solo+cuando+tu+firma+queda+pintada.%0A-+Sin+servidores%2C+sin+base+de+datos+%E2%80%94+el+muro+vive+en+este+repo.)**
@@ -110,6 +110,7 @@ Ingeniero en Sistemas Computacionales (CDMX 🇲🇽) trabajando en tres frentes
 <summary>🖋️ Firmas en el muro</summary>
 
 <!--begin usernames-->
+###### [franciscojaviergtz1iv8-svg](https://github.com/franciscojaviergtz1iv8-svg) on 02/10/2026
 <!--end usernames-->
 
 <sub>Gracias a todos los que firmaron 🙏 · Powered by <a href="https://github.com/BertPlasschaert/TaggableBanner">TaggableBanner</a> (MIT)</sub>
