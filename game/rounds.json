@@ -1,75 +1,76 @@
 {
-  "version": 1,
+  "version": 2,
+  "note": "AI texts are local-model output, style-cloned from the author's TONE.md voice contract.",
   "rounds": [
     {
       "id": 1,
-      "text": "Preferir programar de noche me parece que me permite estar más enfocado y sin distracciones. No hay reuniones ni llamadas, puedo dedicarle todo mi tiempo a resolver el problema que tengo bloqueado. Además, la calma de la noche me permite pensar de manera más lógica y racional.",
+      "text": "Me quedé con la duda después de ver que mi accuracy subía bastante cuando metía más muestras de la clase desbalanceada. Pero entonces me percaté de que el modelo en realidad estaba overfiteando esas clases, no aprendiendo de verdad. No siempre es claro cuál parte falló, si el modelo o los datos.",
       "is_ai": true,
-      "source": "llama3.1:8b",
-      "topic": "programar de noche"
+      "source": "llama3.1:8b local · voice-matched to TONE.md",
+      "topic": "accuracy con clases desbalanceadas"
     },
     {
       "id": 2,
-      "text": "No sé, creo que me da una sensación de control sobre lo que estoy haciendo y que no tengo que depender de una interfaz muy visual como con los editores gráficos. Además, es muy rápido y light en mi laptop, y estoy acostumbrado a sus comandos.",
+      "text": "Ese día mi experimento empezó bien, pero después de varias horas noté que mis métricas subían de una manera extraña. Sospecho que el data leakage me arruinó las cosas, porque me di cuenta de que había mezclado el training set con el test set sin querer. Me desesperé y no pude entrenar bien durante días.",
       "is_ai": true,
-      "source": "llama3.1:8b",
-      "topic": "por qué sigo usando vim"
+      "source": "llama3.1:8b local · voice-matched to TONE.md",
+      "topic": "data leakage que me arruinó un experimento"
     },
     {
       "id": 3,
-      "text": "Recuerdo que estaba un poco nerviosa al desplegar mi proyecto a producción por primera vez, pero todo salió bien al final. Me costó un poco entender el proceso, pero con la ayuda de mis colegas me fue más fácil que pensaba. Ahora no me cuesta tanto trabajo.",
+      "text": "Empiezo a entender que arrancar con un modelo preentrenado me ahorra muchísimo tiempo de entrenamiento. Antes me la pasaba diseñando mi propia arquitectura desde cero sin preguntarme si alguien ya lo había resuelto. Al final casi siempre conviene empezar por transfer learning y luego ajustar a tu problema, no al revés.",
       "is_ai": true,
-      "source": "llama3.1:8b",
-      "topic": "primer deploy a producción"
+      "source": "llama3.1:8b local · voice-matched to TONE.md",
+      "topic": "empezar por transfer learning"
     },
     {
       "id": 4,
-      "text": "Sobrevivo a las juntas de los lunes preparándome el domingo por la noche: me traigo café, zumo de naranja y un par de bocaditos para mantenerme con energía, además organizo las notas y documentos que necesitaré para poder trabajar de manera efectiva y así evitar el estrés.",
+      "text": "Tengo una duda con el uso del dev set. Entiendo que su propósito es decidir sobre el modelo, no presumir qué tan bien va. A veces me ocurre dejar quieto el entrenamiento y confiar en que si el training set va bien, el dev set también. Pero después no siempre es claro cuál parte falló.",
       "is_ai": true,
-      "source": "llama3.1:8b",
-      "topic": "juntas de lunes"
+      "source": "llama3.1:8b local · voice-matched to TONE.md",
+      "topic": "para qué sirve el dev set"
     },
     {
       "id": 5,
-      "text": "Para mí, un buen café es aquel que tiene un aroma intenso y un sabor equilibrado entre el amargo y el dulce. Prefiero los cafés que no están demasiado tostados ni demasiado finos, lo que me permite apreciar la complejidad de sus notas. Una buena crema es también una ventaja, pero no el único criterio de elegibilidad.",
+      "text": "Estoy atorado en este entrenamiento y no sé por dónde empezar a depurar. Puede ser overfitting del modelo o una mala métrica de entrenamiento. No siempre es claro cuál parte falló, y a veces me doy cuenta de que el problema era el data leakage. Entonces dejo todo quieto y ocupo el día siguiente para revisar los datos.",
       "is_ai": true,
-      "source": "llama3.1:8b",
-      "topic": "elegir un buen café"
+      "source": "llama3.1:8b local · voice-matched to TONE.md",
+      "topic": "el modelo no entrena"
     },
     {
       "id": 6,
-      "text": "Me gusta trabajar con un escritorio despejado, solo necesito mi portátil, un teclado mecánico y una silla cómoda. A mi lado tengo una pequeña estantería con mis libros de referencia y algunos cuadernos de notas, y siempre tengo una taza de café cerca. La iluminación natural es lo mejor, así que me gusta trabajar cerca de la ventana.",
+      "text": "Creo que la data augmentation me ayuda a mejorar las métricas cuando ando corto de datos. Si mi modelo está overfiteando, puede que el problema no sea la data augmentation en sí, pero meter más datos artificiales al training set suele ser buena idea. Aunque tampoco es magia, a veces solo maquilla el problema.",
       "is_ai": true,
-      "source": "llama3.1:8b",
-      "topic": "setup de escritorio"
+      "source": "llama3.1:8b local · voice-matched to TONE.md",
+      "topic": "cuándo ocupar data augmentation"
     },
     {
       "id": 7,
-      "text": "Recuerdo ese bug de un juego que me hizo un daño psicológico profundo, era de esos que te hacen perder la noción del tiempo y no te dejan jugar. Al finalizar una partida de supervivencia, una maldición de '¡vuelve a jugar!' se repitió infinitamente hasta que reinicié la consola, fue una verdadera catástrofe.",
+      "text": "Entendí que cuando el modelo hace overfitting aprende hasta el ruido de mis datos, y cuando hace underfitting ni siquiera alcanza el patrón. No siempre es claro cuál de los dos me está pasando, sobre todo al principio. Por eso conviene medir mi métrica en el dev set y no solo en el training set.",
       "is_ai": true,
-      "source": "llama3.1:8b",
-      "topic": "un bug traumático"
+      "source": "llama3.1:8b local · voice-matched to TONE.md",
+      "topic": "diferencia entre overfitting y underfitting"
     },
     {
       "id": 8,
-      "text": "Me di cuenta de que el mejor consejo que me dieron como desarrollador fue 'no tengas miedo de hacerlo de nuevo'. En un momento, estaba atascado en un problema y estaba a punto de dar por imposible, pero alguien me dijo que simplemente reiniciara el proceso desde el principio. Funcionó como un sortilegio, me permitió ver cosas que no había visto antes.",
+      "text": "Hace un tiempo mi modelo iba excelente en el training set, pero en el test set no se comportaba igual. Entonces me pregunté si algo estaba alterando las cosas, y fue ahí donde encontré que no había normalizado las features. Después de normalizarlas las cosas mejoraron bastante.",
       "is_ai": true,
-      "source": "llama3.1:8b",
-      "topic": "mejor consejo como dev"
+      "source": "llama3.1:8b local · voice-matched to TONE.md",
+      "topic": "normalizar las features"
     },
     {
       "id": 9,
-      "text": "Hace unos meses decidí dejar de usar las redes sociales porque estaba cansada de sentirme mal conmigo mismo cuando no eras perfecto en la foto, pero también estaba harta de la comparación constante y la sensación de que te estabas perdiendo de la vida real. Fue un alivio ser libre de compartir solo lo que quería y no preocuparme por la opinión de los demás.",
+      "text": "Puede ser que una métrica de 0.99 no siempre sea buena noticia, sobre todo si el modelo está overfiteando. Mi accuracy se veía perfecta, pero no siempre es claro cuál parte falló hasta que revisé los datos. Ocupar todo el training set sin dejar un dev set limpio puede generar data leakage y arruinar el resultado.",
       "is_ai": true,
-      "source": "llama3.1:8b",
-      "topic": "dejar redes sociales"
+      "source": "llama3.1:8b local · voice-matched to TONE.md",
+      "topic": "una métrica de 0.99 que esconde un problema"
     },
     {
       "id": 10,
-      "text": "Me encantan los viernes de deploy, es la única vez de la semana que puedo disfrutar de la tranquilidad después de un día de estrés en el trabajo. Puedo relajarme en el parque, leer un libro o simplemente disfrutar de un buen café mientras escucho música. Es mi momento de escape antes de sumergirme en las prisas del sábado.",
+      "text": "Tengo dudas con los pipelines end-to-end: suenan elegantes hasta que algo se rompe y mi modelo empieza a overfitear. Pienso que pasa porque el modelo está ocupado aprendiendo patrones sin dejar quieto tiempo para revisar la cadena completa. Por eso ahora prefiero ir por partes antes de juntar todo.",
       "is_ai": true,
-      "source": "llama3.1:8b",
-      "topic": "viernes de deploy"
+      "source": "llama3.1:8b local · voice-matched to TONE.md",
+      "topic": "pipeline end-to-end"
     }
   ]
 }

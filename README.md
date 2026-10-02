@@ -127,7 +127,7 @@ Ingeniero en Sistemas Computacionales (CDMX 🇲🇽) trabajando en tres frentes
 
 ### 🔎 Ronda #1 — ¿quién escribió esto?
 
-> Preferir programar de noche me parece que me permite estar más enfocado y sin distracciones. No hay reuniones ni llamadas, puedo dedicarle todo mi tiempo a resolver el problema que tengo bloqueado. Además, la calma de la noche me permite pensar de manera más lógica y racional.
+> Me quedé con la duda después de ver que mi accuracy subía bastante cuando metía más muestras de la clase desbalanceada. Pero entonces me percaté de que el modelo en realidad estaba overfiteando esas clases, no aprendiendo de verdad. No siempre es claro cuál parte falló, si el modelo o los datos.
 
 *Votos: 0/8 — 🤖 IA: 0 · 🧑 Humano: 0*
 
