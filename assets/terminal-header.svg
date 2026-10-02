@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" fill="none">
+  <defs>
+    <style>
+      @keyframes typing { from { width: 0 } to { width: 100% } }
+      @keyframes blink { 50% { opacity: 0 } }
+      .title { font: 600 14px 'Segoe UI', system-ui, sans-serif; fill: #8b949e; letter-spacing: 0.08em; }
+      .body  { font: 400 15px 'Consolas', 'Courier New', monospace; fill: #e6edf3; }
+      .dim   { fill: #7d8590; }
+      .green { fill: #3fb950; }
+      .host  { fill: #79c0ff; }
+      .cursor { fill: #e6edf3; animation: blink 1s step-end infinite; }
+      .typing-wrap { overflow: hidden; white-space: nowrap; display: inline-block; vertical-align: bottom; }
+      .t1 { animation: typing 1.4s steps(22, end) 0.4s both; }
+      .t2 { animation: typing 1.8s steps(34, end) 2.2s both; }
+      .t3 { animation: typing 2.0s steps(40, end) 4.4s both; }
+    </style>
+  </defs>
+
+  <!-- window chrome -->
+  <rect x="1" y="1" width="798" height="198" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <circle cx="24" cy="26" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="26" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="26" r="6" fill="#28c840"/>
+  <text x="86" y="31" class="title">angel@hermes — zsh</text>
+
+  <!-- lines -->
+  <g transform="translate(24,70)">
+    <text class="body">
+      <tspan class="green">➜</tspan>
+      <tspan class="host"> ~</tspan>
+      <tspan> whoami</tspan>
+    </text>
+    <text y="30" class="body dim">
+      <tspan class="typing-wrap t1">Angel Palestina · AI &amp; Full-Stack · CDMX</tspan>
+    </text>
+    <text y="60" class="body dim">
+      <tspan class="typing-wrap t2">$ building multi-agent systems with MCP</tspan>
+    </text>
+    <text y="90" class="body dim">
+      <tspan class="typing-wrap t3">$ from Transformers to orchestration</tspan>
+      <tspan class="cursor" dx="6">▊</tspan>
+    </text>
+  </g>
+</svg>

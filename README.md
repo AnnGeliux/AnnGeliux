@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🖥️ Angel Francisco Palestina Blancas
+<img src="./assets/terminal-header.svg" width="800" alt="terminal — angel@hermes: whoami" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFFFFF&width=500&center=true&vCenter=true&fade=true&lines=AI+%26+Full-Stack+Engineer;MCP+Agent+Architect;Multi-Agent+Systems+Orchestrator;Deep+Learning+Enthusiast;Local+LLM+Inference" alt="Typing SVG" />
 
@@ -93,6 +93,28 @@ Ingeniero en Sistemas Computacionales (CDMX 🇲🇽) trabajando en tres frentes
 `Convolutional Neural Networks` · DeepLearning.AI — *sept 2026*
 `Diffusion Models: From Prompts to Images and Video` · AMD AI Academy — *jun 2026*
 `AI Agents 101/201: Multi-Agent Systems` · AMD AI Academy — *abr 2026*
+
+---
+
+## 🧱 El Muro — deja tu firma
+
+*Los visitantes pueden grabar su username en el muro. Click abajo → GitHub abre un issue pre-llenado → un Action lo pinta. Sin servidor, sin base de datos — todo vive en este repo.*
+
+<div align="center">
+  <img src="./banner.svg" alt="El Muro — guestbook" />
+</div>
+
+**[🖊️ Deja tu firma en el muro](https://github.com/AnnGeliux/AnnGeliux/issues/new?title=Add+my+username+to+the+banner!&body=Solo+dale+%27Create%27.+No+necesitas+hacer+nada+m%C3%A1s.)**
+
+<details>
+<summary>🖋️ Firmas en el muro</summary>
+
+<!--begin usernames-->
+<!--end usernames-->
+
+<sub>Gracias a todos los que firmaron 🙏 · Powered by <a href="https://github.com/BertPlasschaert/TaggableBanner">TaggableBanner</a> (MIT)</sub>
+
+</details>
 
 <div align="center">
 

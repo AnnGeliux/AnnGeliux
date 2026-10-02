@@ -1,0 +1,88 @@
+name: Taggable Banner — guestbook
+run-name: Add username of ${{ github.actor }} to banner
+on:
+  issues:
+    types: [opened]
+
+env:
+  ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+
+concurrency:
+  group: adding_username
+  cancel-in-progress: false
+
+jobs:
+  check_username:
+    name: Check username
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'Add my') && endsWith(github.event.issue.title, 'to the banner!')
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.10'
+          pip-install: git+https://github.com/BertPlasschaert/TaggableBanner@v1.1.0
+      - id: check
+        name: Check if name is already used
+        run: taggablebanner check "$ISSUE_AUTHOR"
+
+  add_tag:
+    name: Add user's tag
+    needs: check_username
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.10'
+          pip-install: git+https://github.com/BertPlasschaert/TaggableBanner@v1.1.0
+      - name: Add tag
+        run: taggablebanner add "$ISSUE_AUTHOR"
+      - name: Make banner name unique to bust GitHub image cache
+        run: taggablebanner fix_cache
+      - name: Commit and push updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "guestbook: add @$ISSUE_AUTHOR"
+          git push
+
+  comment_on_issue:
+    name: Comment on the triggering issue
+    runs-on: ubuntu-latest
+    needs: [check_username, add_tag]
+    if: always() && needs.check_username.result != 'skipped'
+    steps:
+      - uses: actions/checkout@v6
+      - name: Add comment
+        run: |
+          if [ "${{ needs.check_username.result }}" = "failure" ]; then
+            COMMENT="Name check failed — solo puedes agregar tu username una vez. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          elif [ "${{ needs.add_tag.result }}" = "failure" ]; then
+            COMMENT="Algo salió mal agregando tu username. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          else
+            COMMENT="Tu username ya está en el muro 🧱 ¡Gracias por firmar! → ${{ github.server_url }}/${{ github.repository }}"
+          fi
+          gh issue comment "${{ github.event.issue.number }}" --body "$COMMENT"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  close_issue:
+    name: Close the triggering issue
+    needs: [add_tag, comment_on_issue]
+    if: always() && needs.check_username.result != 'skipped'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Close issue
+        if: needs.add_tag.result != 'failure'
+        run: gh issue close "${{ github.event.issue.number }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
