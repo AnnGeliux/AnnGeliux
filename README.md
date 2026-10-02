@@ -101,7 +101,7 @@ Ingeniero en Sistemas Computacionales (CDMX 🇲🇽) trabajando en tres frentes
 *Los visitantes pueden grabar su username en el muro. Click abajo → GitHub abre un issue pre-llenado → un Action lo pinta. Sin servidor, sin base de datos — todo vive en este repo.*
 
 <div align="center">
-  <img src="./banner.svg" alt="El Muro — guestbook" />
+  <img src="./banner978564.svg" alt="El Muro — guestbook" />
 </div>
 
 **[🖊️ Deja tu firma en el muro](https://github.com/AnnGeliux/AnnGeliux/issues/new?title=Add+my+username+to+the+banner!&body=Solo+dale+%27Create%27.+No+necesitas+hacer+nada+m%C3%A1s.)**
@@ -110,6 +110,7 @@ Ingeniero en Sistemas Computacionales (CDMX 🇲🇽) trabajando en tres frentes
 <summary>🖋️ Firmas en el muro</summary>
 
 <!--begin usernames-->
+###### [AnnGeliux](https://github.com/AnnGeliux) on 02/10/2026
 <!--end usernames-->
 
 <sub>Gracias a todos los que firmaron 🙏 · Powered by <a href="https://github.com/BertPlasschaert/TaggableBanner">TaggableBanner</a> (MIT)</sub>
