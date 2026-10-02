@@ -1,7 +1,14 @@
 {
   "round_index": 0,
-  "votes": {},
+  "votes": {
+    "1": {
+      "ai": [
+        "AnnGeliux"
+      ],
+      "human": []
+    }
+  },
   "resolved": {},
   "scores": {},
-  "total_votes": 0
+  "total_votes": 1
 }

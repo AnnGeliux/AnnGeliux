@@ -123,13 +123,13 @@ Ingeniero en Sistemas Computacionales (CDMX 🇲🇽) trabajando en tres frentes
 *Cada ronda muestra un texto. Unos los escribió un humano, otros una IA local (Ollama). Vota por issue y ve si puedes distinguirlos. Marcador global incluido.*
 
 <!--BEGIN TURING-->
-**Rondas resueltas:** 0/10 &nbsp;·&nbsp; **Votos totales:** 0 &nbsp;·&nbsp; **Humanos detectados:** ve el marcador abajo
+**Rondas resueltas:** 0/10 &nbsp;·&nbsp; **Votos totales:** 1 &nbsp;·&nbsp; **Humanos detectados:** ve el marcador abajo
 
 ### 🔎 Ronda #1 — ¿quién escribió esto?
 
 > Preferir programar de noche me parece que me permite estar más enfocado y sin distracciones. No hay reuniones ni llamadas, puedo dedicarle todo mi tiempo a resolver el problema que tengo bloqueado. Además, la calma de la noche me permite pensar de manera más lógica y racional.
 
-*Votos: 0/8 — 🤖 IA: 0 · 🧑 Humano: 0*
+*Votos: 1/8 — 🤖 IA: 1 · 🧑 Humano: 0*
 
 [🤖 Vota: es IA](https://github.com/AnnGeliux/AnnGeliux/issues/new?title=vote%7C1%7Cai&body=Solo+dale+Create.) &nbsp;·&nbsp; [🧑 Vota: es humano](https://github.com/AnnGeliux/AnnGeliux/issues/new?title=vote%7C1%7Chuman&body=Solo+dale+Create.)
 <!--END TURING-->
